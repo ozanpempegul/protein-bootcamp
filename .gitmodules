@@ -10,3 +10,6 @@
 [submodule "4-hafta-odev-ozanpempegul"]
 	path = 4-hafta-odev-ozanpempegul
 	url = https://github.com/215-Protein-NET-Bootcamp/4-hafta-odev-ozanpempegul
+[submodule "Graduation-Project-ozanpempegul"]
+	path = Graduation-Project-ozanpempegul
+	url = https://github.com/215-Protein-NET-Bootcamp/Bitirme-Projesi-ozanpempegul
