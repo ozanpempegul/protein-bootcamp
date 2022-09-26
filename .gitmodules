@@ -4,3 +4,6 @@
 [submodule "2-hafta-odev-ozanpempegul"]
 	path = 2-hafta-odev-ozanpempegul
 	url = https://github.com/215-Protein-NET-Bootcamp/2-hafta-odev-ozanpempegul
+[submodule "3-hafta-odev-ozanpempegul"]
+	path = 3-hafta-odev-ozanpempegul
+	url = https://github.com/215-Protein-NET-Bootcamp/3-hafta-odev-ozanpempegul
