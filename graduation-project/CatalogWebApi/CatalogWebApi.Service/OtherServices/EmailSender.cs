@@ -47,8 +47,7 @@ namespace CatalogWebApi.Service
                     client.EnableSsl = true;
                     client.DeliveryMethod = SmtpDeliveryMethod.Network;
                     client.UseDefaultCredentials = false;
-
-                    // reading it from credentials.txt, password is app pasword not the actual password of the email.
+                    
                     client.Credentials = new NetworkCredential(_emailConfig.From, _emailConfig.Password);
                     client.Send(mailMessage);
                 }
@@ -72,8 +71,7 @@ namespace CatalogWebApi.Service
                     client.EnableSsl = true;
                     client.DeliveryMethod = SmtpDeliveryMethod.Network;
                     client.UseDefaultCredentials = false;
-
-                    // reading it from credentials.txt, password is app pasword not the actual password of the email.
+                    
                     client.Credentials = new NetworkCredential(_emailConfig.From, _emailConfig.Password);
                     client.SendAsync(mailMessage, "succeed");
                 }
